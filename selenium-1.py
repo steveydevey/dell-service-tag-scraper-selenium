@@ -9,9 +9,9 @@ from selenium.webdriver.common.by   import By
 #from selenium.webdriver.support     import expected_conditions as EC
 
 # example real url http://www.dell.com/support/home/us/en/04/product-support/servicetag/JKZNHH2/research
-servicetag_old   = 'JKZNHH2'
-servicetag_new   = '173KTH3'
-st_set = {'JKZNHH2', '173KTH3', 'JKZMHH2', '6GMLQJ3', 'H63KTH3'}
+servicetag_old   = 'J8T3ND2'
+servicetag_new   = 'J5F09R1'
+st_set = {'J8T3ND2', 'J5F09R1'}
 dell_url         = 'https://www.dell.com/support/home/en-us'
 outer_div_id     = 'ps-inlineWarranty'
 outer_div_class1 = 'flex-wrap d-flex-inline align-items-center mb-1 mb-lg-0'
