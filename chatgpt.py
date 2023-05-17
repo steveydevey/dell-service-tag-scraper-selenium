@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
-servicetag = 'JKZNHH2'
+servicetag = 'J5F09R1'
 start_url = 'http://www.dell.com/support/home/us/en/04/product-support/servicetag/@/overview'
 base_url = 'http://www.dell.com/support/home/us/en/04/product-support/servicetag/@/research'
 real_url = base_url.replace('@', servicetag)

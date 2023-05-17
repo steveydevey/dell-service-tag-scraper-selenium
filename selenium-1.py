@@ -8,7 +8,7 @@ from selenium.webdriver.common.by   import By
 #from selenium.webdriver.support.ui  import WebDriverWait
 #from selenium.webdriver.support     import expected_conditions as EC
 
-# example real url http://www.dell.com/support/home/us/en/04/product-support/servicetag/JKZNHH2/research
+# example real url http://www.dell.com/support/home/us/en/04/product-support/servicetag/xxxxxx/research
 servicetag_old   = 'J8T3ND2'
 servicetag_new   = 'J5F09R1'
 st_set = {'J8T3ND2', 'J5F09R1'}

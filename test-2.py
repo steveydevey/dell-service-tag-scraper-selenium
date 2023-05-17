@@ -9,8 +9,8 @@ from selenium.webdriver.common.by   import By
 from selenium.webdriver.support.ui  import WebDriverWait
 from selenium.webdriver.support     import expected_conditions as EC
 
-# example real url http://www.dell.com/support/home/us/en/04/product-support/servicetag/JKZNHH2/research
-servicetag = 'JKZNHH2'
+# example real url http://www.dell.com/support/home/us/en/04/product-support/servicetag/J5F09R1/research
+servicetag = 'J5F09R1'
 start_url = 'http://www.dell.com/support/home/us/en/04/product-support/servicetag/@/overview'
 base_url = 'http://www.dell.com/support/home/us/en/04/product-support/servicetag/@/research'
 real_url = base_url.replace('@', servicetag)

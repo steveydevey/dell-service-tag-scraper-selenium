@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 dell_tag_site = 'https://www.dell.com/support/home/en-us?app=products'
 input_box_name = 'entry-main-input-home'
 output_box_class = 'warrantyExpiringLabel mb-0 ml-1 mr-1'
-servicetag = 'JKZNHH2'
+servicetag = 'J5F09R1'
 base_url = 'http://www.dell.com/support/home/us/en/04/product-support/servicetag/@/research'
 
 
