@@ -5,13 +5,14 @@ from selenium                       import webdriver
 from selenium.webdriver             import FirefoxOptions
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by   import By
-#from selenium.webdriver.support.ui  import WebDriverWait
-#from selenium.webdriver.support     import expected_conditions as EC
 
 # example real url http://www.dell.com/support/home/us/en/04/product-support/servicetag/xxxxxx/research
+# but this gets caught in a captcha-style delay and I don't know how to work around it yet. 
+# so we navigate to a search page first instead.
+
 servicetag_old   = 'J8T3ND2'
 servicetag_new   = 'J5F09R1'
-st_set = {'J8T3ND2', 'J5F09R1'}
+st_set           = {'J8T3ND2', 'J5F09R1'}
 dell_url         = 'https://www.dell.com/support/home/en-us'
 outer_div_id     = 'ps-inlineWarranty'
 outer_div_class1 = 'flex-wrap d-flex-inline align-items-center mb-1 mb-lg-0'

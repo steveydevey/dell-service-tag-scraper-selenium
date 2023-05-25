@@ -1,7 +1,7 @@
 #!/bin/env python
 # dumb script to scrape service tags from dell's site
 
-import time
+import time # can I just get rid of this?
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
